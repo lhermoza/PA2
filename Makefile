@@ -1,7 +1,7 @@
-all: first
+all: second
 
-first: first.c
-		gcc -Wall -Werror -fsanitize=address -std=c99 first.c -o first
+second: second.c
+		gcc -Wall -Werror -fsanitize=address -std=c99 second.c -o second
 
 clean: 
-	rm -rf first
+	rm -rf second
