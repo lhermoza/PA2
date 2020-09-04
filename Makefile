@@ -1,7 +1,7 @@
-all: second
+all: third
 
-second: second.c
-		gcc -Wall -Werror -fsanitize=address -std=c99 second.c -o second
+third: third.c
+		gcc -Wall -Werror -fsanitize=address -std=c99 third.c -o third
 
-clean: 
-	rm -rf second
+clean:
+	rm -rf third
